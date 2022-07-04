@@ -1,7 +1,7 @@
 {
     "name": "Node.js Sample",
     "description": "A jwt token clone ",
-    "repository": "https://github.com/whitestorm007/jwtsigma",
+    "repository": "https://github.com/whitestorm007/herokujwt",
     "logo": "https://node-js-sample.herokuapp.com/node.png",
     "keywords": ["node", "express", "static"]
 }
