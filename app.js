@@ -5,6 +5,10 @@ const PORT = process.env.PORT || 4000
 const jwt = require('jsonwebtoken');
 const jwt_token = "SigmaSearchIsBetterThenAll"
 
+
+app.get("/", function(req, res) {
+    res.send("hii")
+})
 app.post("/validateStreamUrl", (req, res) => {
     let token = req.query.token
     if (token === undefined || token === null || token.trim() === "") {
