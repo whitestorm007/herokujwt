@@ -9,7 +9,7 @@ const jwt_token = "SigmaSearchIsBetterThenAll"
 app.get("/", function(req, res) {
     res.send("hii")
 })
-app.post("/validateStreamUrl", (req, res) => {
+app.get("/validateStreamUrl", (req, res) => {
     let token = req.query.token
     if (token === undefined || token === null || token.trim() === "") {
         res.json({ code: false })
